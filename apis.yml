@@ -1,8 +1,27 @@
 aid: woven-software
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/woven-software.png
 name: Woven Software
-description: Woven Software is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Woven Software, Inc. (Woven, woven.com) was a Mountain View, California
+  startup that built an AI-powered calendar and scheduling application for professionals,
+  raising roughly $4.8M from investors including Battery Ventures, Felicis, Amplify
+  Partners, Salesforce Ventures, and the Slack Fund. Slack acquired the Woven team
+  in an acqui-hire announced in April 2021 and the Woven calendar product was shut
+  down; the company no longer operates and publishes no APIs, developer portal, or
+  other public API artifacts. The woven.com domain no longer serves the product
+  (HTTPS fails; registration is behind a privacy service). This profile records the
+  company as an exited Battery Ventures portfolio investment with no remaining API
+  surface.
 url: https://raw.githubusercontent.com/api-evangelist/woven-software/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +29,42 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: Acquired by Slack (acqui-hire announced April 2021); Woven calendar
+  product shut down in 2021. Battery Ventures lists the company as an exited investment.
+x-acquired-by: slack
+x-defunct: true
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Calendar
+- Scheduling
+- Productivity
+- Acquired
+- Defunct
 apis: []
+x-evidence:
+- source: https://www.battery.com/list-of-all-companies/
+  note: Listed as "Woven Software, Inc. *" (asterisk denotes an exited investment).
+  checked: '2026-07-21'
+- source: https://www.cbinsights.com/company/woven-software
+  note: AI-powered calendaring platform, founded 2017, Mountain View CA, raised $4.8M,
+    acquired by Slack April 2021; investors include Battery Ventures, Felicis, Amplify
+    Partners, Salesforce Ventures.
+  checked: '2026-07-21'
+- source: https://woven.com/
+  note: 'Probe 2026-07-21: HTTP 301 to https which fails TLS handshake (site dead);
+    whois registrant behind privacy service.'
+  checked: '2026-07-21'
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
