@@ -34,7 +34,7 @@ x-status-detail: Acquired by Slack (acqui-hire announced April 2021); Woven cale
   product shut down in 2021. Battery Ventures lists the company as an exited investment.
 x-acquired-by: slack
 x-defunct: true
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
